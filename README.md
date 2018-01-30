@@ -56,19 +56,19 @@ eventBus.remove('one');
 
 in the example folder, open index.html and check in the Console the results of the 4 examples
 
-for jacascript code you can check files in example folder : part1.js, part2.js, part3.js, part4.js
+for javascript code you can check files in example folder : part1.js, part2.js, part3.js, part4.js
 
 
 ## Tests
 
 ### Unit tests
 
-in the unitTest folder, open test.html and check that the unit tests passed are green color
+in the unitTest folder open test.html and check that the unit tests passed are green color
 
 ###  Unit tests with chaiJs and mochaJs
 
 ```
-npm install in the root folder (node Js must be installed in your machine)
+in the root of the folder with the terminal run npm install  (node Js must be installed in your machine)
 ```
 
 ```

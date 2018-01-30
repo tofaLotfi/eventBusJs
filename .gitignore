@@ -1,0 +1,8 @@
+# standard extensions
+*~
+node_modules/
+/node_modules/
+.nyc_output
+package-lock.json
+
+

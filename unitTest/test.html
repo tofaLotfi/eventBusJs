@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function assert(value, desc) {
+            var li = document.createElement('li');
+            li.className = value ? 'pass' : 'fail';
+            li.appendChild(document.createTextNode(desc));
+            document.getElementById("results").appendChild(li);
+        }
+    </script>
+    <style>
+        #results li.pass {
+            color: 	green
+        }
+        #results li.fail {
+            color: crimson
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>eventBus test</h2>
+    <ul id="results"></ul>
+    <!-- <script type="text/javascript">
+        function isNimble() { return true; }
+        assert(typeof window.isNimble === 'function', 'isNimble() defined');
+    </script> -->
+    <script type="text/javascript" language="javascript" src="../src/eventBus.js"></script>
+    <script type="text/javascript" language="javascript" src="eventBus.test.js"></script>
+</body>
+
+</html>

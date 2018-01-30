@@ -1,0 +1,22 @@
+{
+  "name": "eventbus",
+  "version": "0.0.1",
+  "description": "eventBus",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-with-coverage": "nyc --reporter=text mocha"
+  },
+  "author": "OUILI Mohammed Lotfi",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "nyc": "^11.4.1"
+  }
+}
